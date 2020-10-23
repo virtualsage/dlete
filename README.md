@@ -47,3 +47,9 @@ apstone, and focused on lengths of up to 10 bytes (11-12 byte instructions seem 
 
 common from casual observation however). 
 
+For each sample (training and data) the instruction head bits are always at the start just like a
+
+real disassembler, however if we relied on tracking this with ML it would soon make an error and the
+
+next instruction would be misaligned in our imaginary instruction pipeline.  
+
