@@ -1,6 +1,6 @@
 # dlete
 
-This is a ML project for classifying the length of x8664 instructions. 
+This is a ML project for classifying the length of x8664 machine instructions. 
 
 Obviously you can't use this as a length diassembly engine, I just made it to learn some ML
 
